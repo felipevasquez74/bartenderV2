@@ -33,7 +33,8 @@ http://localhost:8080/bartender/iterations=6/stackId=2
 
 Esto te llevará a el API de la aplicación BarTender.
 
-![alt text](image.png)
+![Screenshot 2024-03-23 172814](https://github.com/felipevasquez74/bartenderV2/assets/65198914/62ac250f-de51-4551-aab9-78d3b6ac8a24)
+
 
 6. Para detener la aplicación, puedes usar el siguiente comando:
 
