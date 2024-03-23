@@ -15,7 +15,7 @@ git clone https://github.com/felipevasquez74/bartenderV2.git
 ```
 2. Navega al directorio del proyecto:
 ```
-cd BarTender
+cd bartenderV2
 ```
 3. Construye la imagen Docker:
 ```
