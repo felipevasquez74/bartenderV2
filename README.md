@@ -11,6 +11,35 @@ El usuario debera ingresar la cantidad de iteraciones que desea y un numero entr
 
 1. Clona este repositorio en tu máquina local:
 
+git clone https://github.com/felipevasquez74/bartenderV2.git
+
+2. Navega al directorio del proyecto:
+
+cd BarTender
+
+3. Construye la imagen Docker:
+
+docker build -t bartender:1.0 .
+
+4. Ejecuta el contenedor Docker:
+
+docker run -d -p 8080:8080 bartender:1.0
+
+5. Accede a la aplicación en tu navegador web:
+
+Abre tu navegador y ve a la siguiente URL:
+
+http://localhost:8080/bartender/iterations=6/stackId=2
+
+Esto te llevará a el API de la aplicación BarTender.
+
+![alt text](image.png)
+
+6. Para detener la aplicación, puedes usar el siguiente comando:
+
+docker stop $(docker ps -q --filter ancestor=bartender:1.0)
+
+
 ### End points
 La aplicacion esta configurada para desplegar en el puerto 8080.
 
