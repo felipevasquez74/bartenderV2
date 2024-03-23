@@ -44,7 +44,8 @@ La aplicación expone un API que recibe un número de iteraciones `iterations` y
 **Ejemplo de solicitud:**
 
 ```
-**GET** http://localhost:8080/bartender/iterations=5/stackId=2
+`GET`
+http://localhost:8080/bartender/iterations=5/stackId=2
 ```
 
 **Respuesta:**
