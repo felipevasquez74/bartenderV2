@@ -1,4 +1,4 @@
-# Prueba de Bar Ténder
+# Prueba de Bar Tender
 
 Esta aplicación simula el proceso de un bar ténder en el bar más famoso de la ciudad, donde se manejan arreglos de vasos numerados y se aplican operaciones basadas en números primos.
 
