@@ -25,6 +25,8 @@ docker build -t bartender:1.0 .
 ```
 docker run -d -p 8080:8080 bartender:1.0
 ```
+![Screenshot 2024-03-23 173342](https://github.com/felipevasquez74/bartenderV2/assets/65198914/213cfada-6549-4f92-9164-7be6679e995f)
+
 5. Accede a la aplicación en tu navegador web:
 
 Abre tu navegador y ve a la siguiente URL:
