@@ -73,6 +73,10 @@ La aplicación expone un API que recibe un número de iteraciones `iterations` y
 - Base de Datos H2 (In-memory database)
 - Docker
 
+## Requisitos previos
+
+- Docker instalado en tu máquina. Puedes descargarlo desde [la página oficial de Docker](https://www.docker.com/products/docker-desktop).
+
 ## Ejecución de la Aplicación
 
 1. Clona este repositorio en tu máquina local:
@@ -100,11 +104,6 @@ Abre tu navegador y ve a la siguiente URL:
 http://localhost:8080/bartender/iterations=6/stackId=2
 
 Esto te llevará a el API de la aplicación BarTender.
-
-6. Para detener la aplicación, puedes usar el siguiente comando:
-```
-docker stop $(docker ps -q --filter ancestor=bartender:1.0)
-```
 
 ## Contribuciones
 
