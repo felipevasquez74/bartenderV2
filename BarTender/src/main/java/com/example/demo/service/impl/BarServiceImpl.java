@@ -60,9 +60,6 @@ public class BarServiceImpl implements BarService {
 			} else {
 				setResponse(response, HttpStatus.NOT_FOUND, "StackId not found.", Collections.emptyList());
 			}
-		} catch (NumberFormatException e) {
-			log.error("Invalid input format.", e);
-			setResponse(response, HttpStatus.BAD_REQUEST, "Invalid input format.", Collections.emptyList());
 		} catch (Exception e) {
 			log.error("Error in service getDivisibleNumber ", e);
 			setResponse(response, HttpStatus.INTERNAL_SERVER_ERROR,
